@@ -1,0 +1,97 @@
+body {
+  background-color: rgba(103, 103, 103, 0.713);
+    font-family: fantasy;
+  }
+  
+  main{
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  
+  h1{
+      text-align: center;
+  }
+  .navbar ul{
+      list-style-type: none;
+      background-color: hsl(0, 0%, 25%);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+  }
+  .navbar a{
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+      text-align: center;
+  }
+  .navbar a:hover{
+      background-color: hsl(0, 0%, 10%);
+  }
+  .navbar li{
+      float: left;
+  }
+  
+  .my-text {
+    color:aliceblue;
+  }
+  
+  li {
+    color: rgb(253, 253, 253);
+  }
+  
+  li:nth-child(1) {
+    color: rgb(255, 255, 255)
+  }
+  
+  li:nth-child(2) {
+    color: rgb(255, 255, 255)
+  }
+  
+  h1{
+    text-align:center;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  .collectie-platen {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .collectie-platen img {
+    max-width: 25%;
+    margin-right: 20px;
+  }
+  
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .grid-item {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .grid-item p {
+    text-align: center;
+  }
+  
+  .record-player {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .record-player img {
+    max-width: 25%;
+    margin-right: 20px;
+  }
